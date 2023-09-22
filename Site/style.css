@@ -1,0 +1,41 @@
+main{
+  background-image:foto/3.jpg;
+  Color:#AA1100;
+  font-size: 20px;
+  width:90%;
+  height:auto;
+  margin:auto;
+  border-radius:10px
+}
+
+img{
+  width:50%;
+  border-radius:30px;
+}
+
+h1{
+  font-family: Arial;
+  text-align: center;
+}
+
+h2{
+  font-family: Arial;
+  text-align: center;
+}
+
+p{
+  font-family: monospace;
+  text-align: center;
+}
+
+a{
+  text-align: center;
+}
+
+button{
+  background-color: #AA2211;
+  color: #FFFFFF;
+  border-radius:10px;
+  height:50px;
+  width:200px;
+}

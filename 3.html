@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пример сайта для ВУЗа</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style3.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        Помогите капибарам <s>дунуть план</s> выжить
+      </div>
+      <br>
+      <div class="credit-card" id="card">
+        <div class="card-front">
+          <div class="branding">
+            <img src="foto/card1.jpg" class="chip-img" />
+          </div>
+          <div class="card-number">
+            <div>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+            </div>
+            <div>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+            </div>
+            <div>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+            </div>
+            <div>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+              <span class="card-number-display">_</span>
+            </div>
+          </div>
+          <div class="details">
+            <div>
+              <span>Имя держателя карты</span>
+              <span id="card-holder-name">Ваше имя</span>
+            </div>
+            <div>
+              <span>Действует до</span>
+              <span id="validity">**/**</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="black-strip"></div>
+          <div class="white-strip">
+            <span>CVV</span>
+            <div id="cvv-display"></div>
+          </div>
+          <img src="visa.png" class="visa-logo" />
+        </div>
+      </div>
+      <form>
+        <label for="card-number">Номер карты:</label>
+        <input type="number" id="card-number" placeholder="**** **** **** ****" />
+
+        <label for="card-holder">Имя держателя карты:</label>
+        <input type="text" id="card-name-input" placeholder="Ваше имя" />
+
+        <div class="date-cvv">
+          <div>
+            <label for="validity">Действует до:</label>
+            <input type="date" id="validity-input" />
+          </div>
+          <div>
+            <label for="cvv">CVV:</label>
+            <input type="number" id="cvv" placeholder="***" />
+          </div>
+        </div>
+      </form>
+      <br>
+      <p class="header">
+      <a href="index.html">
+      <button class="bt" type="button" name="button"><h2>Назад</h2></button>
+      </p>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

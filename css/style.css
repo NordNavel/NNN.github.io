@@ -1,0 +1,48 @@
+main{
+  Color: #FF7600;
+  font-size: 20px;
+  width:90%;
+  height:auto;
+  margin:auto;
+}
+
+img{
+  width:50%;
+  border-radius:30px;
+}
+
+h1{
+  font-family: Arial;
+  text-align: center;
+}
+
+h2{
+  font-family: Arial;
+  text-align: center;
+}
+
+p{
+  font-family: monospace;
+  text-align: center;
+  margin: 20px;
+}
+
+a{
+  text-align: center;
+}
+
+button{
+  background-color: #FF7600;
+  color: #FFFFFF;
+  border-radius:10px;
+  height:60px;
+  width:250px;
+}
+
+body{
+background-image: url("../foto/bg2.jpg");
+width:100%;
+height:100%;
+background-color:#ffffff;
+background-attachment:fixed;
+}
